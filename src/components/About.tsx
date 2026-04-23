@@ -39,12 +39,12 @@ export default function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
             </div>
             {/* Decoration Element */}
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-brand-blue/10 rounded-full blur-3xl z-0"></div>
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-brand-blue/20 rounded-full blur-2xl z-0"></div>
+            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-brand-red/10 rounded-full blur-3xl z-0"></div>
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-brand-red/20 rounded-full blur-2xl z-0"></div>
             
             {/* Experience Badge */}
             <div className="absolute bottom-8 -right-8 bg-white p-6 rounded-xl shadow-xl z-20 hidden md:block">
-              <div className="text-4xl font-black text-brand-blue mb-1">+9 Anos</div>
+              <div className="text-4xl font-black text-brand-red mb-1">+9 Anos</div>
               <div className="text-sm font-semibold text-slate-500 uppercase tracking-wider">de Experiência</div>
             </div>
           </motion.div>
@@ -57,7 +57,7 @@ export default function About() {
             viewport={{ once: true, margin: "-100px" }}
           >
             <motion.div variants={itemVariants} className="mb-4">
-              <span className="text-brand-blue font-bold tracking-wider uppercase text-sm">Quem Somos</span>
+              <span className="text-brand-red font-bold tracking-wider uppercase text-sm">Quem Somos</span>
               <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-2 mb-6">
                 Referência em agilidade para o seu negócio
               </h2>
@@ -75,8 +75,8 @@ export default function About() {
             {/* Features */}
             <motion.div variants={itemVariants} className="grid sm:grid-cols-2 gap-6 mt-10">
               <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center shrink-0">
-                  <Target className="text-brand-blue" size={24} />
+                <div className="w-12 h-12 rounded-lg bg-brand-red/10 flex items-center justify-center shrink-0">
+                  <Target className="text-brand-red" size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-1">Foco no Cliente</h3>
@@ -85,8 +85,8 @@ export default function About() {
               </div>
               
               <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center shrink-0">
-                  <TrendingUp className="text-brand-blue" size={24} />
+                <div className="w-12 h-12 rounded-lg bg-brand-red/10 flex items-center justify-center shrink-0">
+                  <TrendingUp className="text-brand-red" size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 mb-1">Alta Performance</h3>

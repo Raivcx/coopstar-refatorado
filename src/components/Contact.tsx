@@ -15,7 +15,7 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <span className="text-brand-blue font-bold tracking-wider uppercase text-sm">Contato / Localização</span>
+            <span className="text-brand-red font-bold tracking-wider uppercase text-sm">Contato / Localização</span>
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-2 mb-6">
               Fale com a nossa equipe
             </h2>
@@ -25,8 +25,8 @@ export default function Contact() {
 
             <div className="space-y-8">
               <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-brand-blue/10 flex items-center justify-center shrink-0">
-                  <Phone className="text-brand-blue" size={24} />
+                <div className="w-12 h-12 rounded-full bg-brand-red/10 flex items-center justify-center shrink-0">
+                  <Phone className="text-brand-red" size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 text-lg mb-1">Telefones</h3>
@@ -36,20 +36,20 @@ export default function Contact() {
               </div>
 
               <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-brand-blue/10 flex items-center justify-center shrink-0">
-                  <Mail className="text-brand-blue" size={24} />
+                <div className="w-12 h-12 rounded-full bg-brand-red/10 flex items-center justify-center shrink-0">
+                  <Mail className="text-brand-red" size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 text-lg mb-1">E-mail</h3>
-                  <a href="mailto:coopstar_express@hotmail.com" className="text-slate-600 hover:text-brand-blue transition-colors">
+                  <a href="mailto:coopstar_express@hotmail.com" className="text-slate-600 hover:text-brand-red transition-colors">
                     coopstar_express@hotmail.com
                   </a>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start">
-                <div className="w-12 h-12 rounded-full bg-brand-blue/10 flex items-center justify-center shrink-0">
-                  <MapPin className="text-brand-blue" size={24} />
+                <div className="w-12 h-12 rounded-full bg-brand-red/10 flex items-center justify-center shrink-0">
+                  <MapPin className="text-brand-red" size={24} />
                 </div>
                 <div>
                   <h3 className="font-bold text-slate-900 text-lg mb-1">Endereço</h3>
@@ -78,7 +78,7 @@ export default function Contact() {
                   <input 
                     type="text" 
                     id="name" 
-                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition-colors outline-none"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-red focus:border-brand-red transition-colors outline-none"
                     placeholder="Seu nome"
                   />
                 </div>
@@ -87,7 +87,7 @@ export default function Contact() {
                   <input 
                     type="tel" 
                     id="phone" 
-                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition-colors outline-none"
+                    className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-red focus:border-brand-red transition-colors outline-none"
                     placeholder="(11) 90000-0000"
                   />
                 </div>
@@ -98,7 +98,7 @@ export default function Contact() {
                 <input 
                   type="email" 
                   id="email" 
-                  className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition-colors outline-none"
+                  className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-red focus:border-brand-red transition-colors outline-none"
                   placeholder="seu@email.com"
                 />
               </div>
@@ -108,14 +108,14 @@ export default function Contact() {
                 <textarea 
                   id="message" 
                   rows={4} 
-                  className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-blue focus:border-brand-blue transition-colors outline-none resize-none"
+                  className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-brand-red focus:border-brand-red transition-colors outline-none resize-none"
                   placeholder="Como podemos ajudar?"
                 ></textarea>
               </div>
 
               <button 
                 type="submit" 
-                className="w-full bg-brand-blue text-white font-bold py-4 rounded-lg hover:bg-brand-blue-hover transition-colors flex justify-center items-center gap-2"
+                className="w-full bg-brand-red text-white font-bold py-4 rounded-lg hover:bg-brand-red-hover transition-colors flex justify-center items-center gap-2"
               >
                 <Send size={20} />
                 Enviar Mensagem

@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           
           <div className="flex flex-col items-center md:items-start">
-            <span className="text-2xl font-bold tracking-tighter text-white">
+            <span className="text-2xl font-bold tracking-tighter text-brand-red">
               Coopstar<span className="text-slate-400">Express</span>
             </span>
-            <span className="text-xs font-medium tracking-widest uppercase text-brand-blue-hover mt-1">
+            <span className="text-xs font-medium tracking-widest uppercase text-brand-red-hover mt-1">
               Moto Frete & Delivery
             </span>
           </div>
@@ -26,7 +26,7 @@ export default function Footer() {
         <div className="mt-8 pt-8 border-t border-slate-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
           <p>&copy; {currentYear} Coopstar Express. Todos os direitos reservados.</p>
           <p>
-            Desenvolvido com <span className="text-brand-blue">♥</span> para alta performance.
+            Desenvolvido com <span className="text-brand-red">♥</span> para alta performance.
           </p>
         </div>
       </div>

@@ -44,7 +44,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-brand-blue font-bold tracking-wider uppercase text-sm">Nossos Serviços</span>
+          <span className="text-brand-red font-bold tracking-wider uppercase text-sm">Nossos Serviços</span>
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mt-2 mb-4">
             Soluções completas para sua logística
           </h2>
@@ -68,20 +68,20 @@ export default function Services() {
             >
               {/* Image Header */}
               <div className="relative h-48 overflow-hidden">
-                <div className="absolute inset-0 bg-brand-blue/20 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
+                <div className="absolute inset-0 bg-brand-red/20 group-hover:bg-transparent transition-colors z-10 duration-500"></div>
                 <img 
                   src={service.image} 
                   alt={service.title} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute -bottom-6 left-6 w-12 h-12 bg-brand-blue rounded-xl flex items-center justify-center shadow-lg z-20 group-hover:-translate-y-2 transition-transform duration-300">
+                <div className="absolute -bottom-6 left-6 w-12 h-12 bg-brand-red rounded-xl flex items-center justify-center shadow-lg z-20 group-hover:-translate-y-2 transition-transform duration-300">
                   {service.icon}
                 </div>
               </div>
               
               {/* Content */}
               <div className="p-8 pt-10 flex-grow flex flex-col">
-                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-blue transition-colors">
+                <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-brand-red transition-colors">
                   {service.title}
                 </h3>
                 <p className="text-slate-600 text-sm leading-relaxed flex-grow">
