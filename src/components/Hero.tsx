@@ -6,7 +6,8 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center pt-20 pb-16 overflow-hidden bg-slate-900">
       {/* Background Image & Overlays */}
       <div 
-        className="absolute inset-0 bg-[url('/images/hero-bg.png')] bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/hero-bg.png)` }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-slate-900/40"></div>
 

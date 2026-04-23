@@ -32,7 +32,7 @@ export default function About() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl z-10">
               <img 
-                src="/images/about.png" 
+                src={`${import.meta.env.BASE_URL}images/about.png`} 
                 alt="Motoboy realizando entrega" 
                 className="w-full h-[500px] object-cover"
               />

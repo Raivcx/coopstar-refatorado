@@ -8,21 +8,21 @@ export default function Services() {
       title: 'Serviços Moto Frete',
       description: 'Entregas rápidas de documentos e pequenos volumes de um ponto a outro da cidade. Inclui serviços bancários, cartórios, além de despachos e retiradas em aeroportos.',
       icon: <Package className="text-white" size={32} />,
-      image: '/images/service-moto.png',
+      image: `${import.meta.env.BASE_URL}images/service-moto.png`,
     },
     {
       id: 2,
       title: 'Delivery Especializado',
       description: 'Tem um grande volume de documentos ou encomendas leves? Implantamos um serviço de delivery dedicado com o melhor custo-benefício. Ideal para Farmácias, Pizzarias, Restaurantes e Auto Peças.',
       icon: <Truck className="text-white" size={32} />,
-      image: '/images/service-delivery.png',
+      image: `${import.meta.env.BASE_URL}images/service-delivery.png`,
     },
     {
       id: 3,
       title: 'Fora da Capital',
       description: 'Atendemos também demandas intermunicipais e para a Grande São Paulo com a mesma agilidade e compromisso. Consulte nossa tabela de preços especial para estes trajetos.',
       icon: <MapPin className="text-white" size={32} />,
-      image: '/images/service-intercity.png',
+      image: `${import.meta.env.BASE_URL}images/service-intercity.png`,
     }
   ];
 
