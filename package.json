@@ -1,6 +1,7 @@
 {
   "name": "coopstar-refatorado",
   "version": "1.0.0",
+  "type": "module",
   "description": "Site Coopstar refatorado com servidor local fácil",
   "scripts": {
     "dev": "vite",
